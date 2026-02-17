@@ -1,0 +1,74 @@
+body {
+  background-color: #f2f2f2; 
+  }
+
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.384),
+    rgba(0, 0, 1, 0.738)), url(https://static.vecteezy.com/system/resources/previews/008/502/572/non_2x/soccer-field-in-football-stadium-with-line-grass-pattern-and-centerline-circle-sports-background-and-athletic-wallpaper-concept-3d-illustration-rendering-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 90px;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+    
+  }
+
+form{
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.borde{
+  border-radius: 5px;
+}
+
+.bton{
+  border: 0;
+  background-image: linear-gradient(
+    150deg,
+    #9500ff,
+    #09f,
+    #00DDFF
+  );
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor:pointer;
+  transition: .3s;
+}
+
+button:hover{
+  transform:scale(1.15);
+}
+
+.btn-volver-arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-volver-arriba i {
+  margin-top: 10px;
+}
